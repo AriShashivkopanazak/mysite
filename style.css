@@ -1,9 +1,63 @@
 /*
 colors 
 
+non-selected file = #004053
 default-solarized = #002B36 
 */
 
 body {
     background-color: #002B36;
+}
+
+.body {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+/* link */
+.bodyLink {
+    margin-top: -7px;
+    background-color: #004053;
+    width: 100%;
+    height: 35px;
+}
+
+.bodyLinkHome {
+    background-color: #063441;
+    height: 35px;
+    width: 7%;
+    /* border-right-color: black;
+    border-right-width: 0.1px;
+    border-right-style: solid; */
+}
+
+.bodyLinkProjects {
+    background-color: #004053;
+    height: 35px;
+    width: 7%;
+    margin-left: 7%;
+    margin-top: -35px;
+}
+
+.bodyLinkContact {
+    background-color: #004053;
+    width: 7%;
+    height: 35px;
+    margin-left: 14.5%;
+    margin-top: -35px;
+}
+
+.bodyLinkResume {
+    background-color: #004053;
+    height: 35px;
+    width: 7%;
+    margin-left: 22%;
+    margin-top: -35px;
+}
+
+/* head */
+.bodyHead {
+    margin-top: -15.5px;
+    background-color: #063441;
+    /*height: 200px;*/
 }
