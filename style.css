@@ -45,23 +45,43 @@ body {
     margin-left: -8px;
 }
 
-/* link
+ /* link */
+
 .bodyLink {
-    margin-top: -7px;
+    margin-top: -8px;
     background-color: #004053;
     width: 100%;
     height: 35px;
 }
 
+
 .bodyLinkHome {
     background-color: #063441;
     height: 35px;
-    width: 7%;
-    border-right-color: black;
-    border-right-width: 0.1px;
-    border-right-style: solid; 
+    width: 10%; 
 }
 
+.bodyLinkHomeImg {
+    margin-left: 5%;
+    padding-top: 6px;
+}
+
+.bodyLinkHomeTbox {
+    padding-left: 6%;
+    width: auto;
+    height: auto;
+    margin-left: 20%;
+    margin-top: -25px;
+
+}
+
+.bodyLinkHomeTboxText {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em
+}
+
+/*
 .bodyLinkProjects {
     background-color: #004053;
     height: 35px;
