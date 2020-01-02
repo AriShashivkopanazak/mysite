@@ -5,8 +5,39 @@ non-selected file = #004053
 default-solarized = #002B36 
 */
 
+/* text operators */
+.string {
+    color: #179D87;
+}
+.lineNum {
+    color: #4C747A;
+}
+.greenSyntax {
+    color: #7F9801;
+}
+.blueSyntax {
+    color: #116F9C;
+}
+.indent {
+    margin-right: 25px;
+}
+.special {
+    margin-right: 18px;
+}
+.cursor {
+    color: red;
+    animation: blinkingText 1s infinite;
+    opacity: 0;
+}
+@keyframes blinkingText {
+    100% {
+        opacity: 1;
+    }
+}
+
 body {
     background-color: #002B36;
+    font-family: Consolas, 'Courier New', monospace;
 }
 
 .body {
@@ -14,7 +45,7 @@ body {
     margin-left: -8px;
 }
 
-/* link */
+/* link
 .bodyLink {
     margin-top: -7px;
     background-color: #004053;
@@ -26,9 +57,9 @@ body {
     background-color: #063441;
     height: 35px;
     width: 7%;
-    /* border-right-color: black;
+    border-right-color: black;
     border-right-width: 0.1px;
-    border-right-style: solid; */
+    border-right-style: solid; 
 }
 
 .bodyLinkProjects {
@@ -53,11 +84,21 @@ body {
     width: 7%;
     margin-left: 22%;
     margin-top: -35px;
-}
+} */
 
 /* head */
+/* completed */
 .bodyHead {
-    margin-top: -15.5px;
     background-color: #063441;
-    /*height: 200px;*/
+}
+
+.bodyHeadTbox {
+    height: 100%;
+    width: 98%;
+    padding-left: 2%
+}
+
+.bodyHeadTboxText {
+    color: #ffffff;
+    font-size: 1.5em;
 }
