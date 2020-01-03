@@ -45,8 +45,7 @@ body {
     margin-left: -8px;
 }
 
- /* link */
-
+/* link */
 .bodyLink {
     margin-top: -8px;
     background-color: #004053;
@@ -54,11 +53,11 @@ body {
     height: 35px;
 }
 
-
+/* home */
 .bodyLinkHome {
     background-color: #063441;
     height: 35px;
-    width: 10%; 
+    width: 14%; 
 }
 
 .bodyLinkHomeImg {
@@ -67,15 +66,104 @@ body {
 }
 
 .bodyLinkHomeTbox {
-    padding-left: 6%;
-    width: auto;
+    padding-left: 4%;
+    width: 35;
+    height: auto;
+    margin-left: 20%;
+    margin-top: -20px;
+
+}
+
+.bodyLinkHomeTboxText {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+
+/* Projects */
+.bodyLinkProjects {
+    background-color: #004053;
+    height: 35px;
+    width: 14%;
+    margin-left: 14%;
+    margin-top: -35px;
+}
+
+.bodyLinkProjectsImg {
+    margin-left: 5%;
+    padding-top: 6px;
+}
+
+.bodyLinkProjectsTbox {
+    padding-left: 4%;
+    width: 35;
     height: auto;
     margin-left: 20%;
     margin-top: -25px;
 
 }
 
-.bodyLinkHomeTboxText {
+.bodyLinkProjectsTboxText {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em
+}
+
+
+/* contact */
+.bodyLinkContact {
+    background-color: #004053;
+    height: 35px;
+    width: 14%;
+    margin-left: 28%;
+    margin-top: -35px;
+}
+
+.bodyLinkContactImg {
+    margin-left: 5%;
+    padding-top: 6px;
+}
+
+.bodyLinkContactTbox {
+    padding-left: 4%;
+    width: 35;
+    height: auto;
+    margin-left: 20%;
+    margin-top: -25px;
+
+}
+
+.bodyLinkContactTboxText {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em
+}
+
+/* resume */
+.bodyLinkResume {
+    background-color: #004053;
+    height: 35px;
+    width: 14%;
+    margin-left: 42%;
+    margin-top: -35px;
+}
+
+.bodyLinkResumeImg {
+    margin-left: 5%;
+    padding-top: 6px;
+}
+
+.bodyLinkResumeTbox {
+    padding-left: 4%;
+    width: 35;
+    height: auto;
+    margin-left: 20%;
+    margin-top: -25px;
+
+}
+
+.bodyLinkResumeTboxText {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.1em
