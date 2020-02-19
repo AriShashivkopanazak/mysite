@@ -24,6 +24,11 @@ default-solarized = #002B36
 .special {
     margin-right: 18px;
 }
+.bodyAboutPrompt {
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: #179D87;
+}
 .cursor {
     color: red;
     animation: blinkingText 1s infinite;
@@ -169,33 +174,6 @@ body {
     font-size: 1.1em
 }
 
-/*
-.bodyLinkProjects {
-    background-color: #004053;
-    height: 35px;
-    width: 7%;
-    margin-left: 7%;
-    margin-top: -35px;
-}
-
-.bodyLinkContact {
-    background-color: #004053;
-    width: 7%;
-    height: 35px;
-    margin-left: 14.5%;
-    margin-top: -35px;
-}
-
-.bodyLinkResume {
-    background-color: #004053;
-    height: 35px;
-    width: 7%;
-    margin-left: 22%;
-    margin-top: -35px;
-} */
-
-/* head */
-/* completed */
 .bodyHead {
     background-color: #063441;
 }
@@ -209,4 +187,17 @@ body {
 .bodyHeadTboxText {
     color: #ffffff;
     font-size: 1.5em;
+}
+
+.bodyAbout {
+    background-color: #002B36;
+    height:100px;
+    width: 95%;
+    padding-top: 20px;
+    padding-left: 3%;
+}
+
+.bodyAboutText {
+    color: #7F9801;
+    font-size: 1.3em;
 }
