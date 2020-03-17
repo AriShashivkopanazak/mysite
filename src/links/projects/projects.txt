@@ -1,0 +1,15 @@
+list all projects in this file
+
+frc Experience
+
+Robot-2019 - https://github.com/frc6995/Robot-2019
+PracticeRobot-2019 - https://github.com/frc6995/PracticeRobot-2019
+Robot-2020 - https://github.com/frc6995/Robot-2020
+
+Personal Experience
+
+Arch Linux guide - https://github.com/AriShashivkopanazak/arch-linux-guide
+kaliconnect - https://github.com/AriShashivkopanazak/kaliconnect 
+dotfiles
+
+Contributions
