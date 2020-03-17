@@ -17,7 +17,10 @@
 
 ## Colors
 
-list all projects in this file
+non-selected file = #004053
+default-solarized = #002B36
+
+## Projects
 
 frc Experience
 
@@ -33,6 +36,8 @@ dotfiles
 
 Contributions
 
+## Index about me snippet
+
 ``` python
 pseudonym = "Ari Shashivkopanazak"
 name = "Jacob Vardilos"
@@ -46,6 +51,8 @@ def myinfo():
 myinfo()
 ```
 
+## Links for my reference
+
 Line numbers snippet
 
 <https://stackoverflow.com/questions/36378371/how-to-make-automatic-line-numbers-next-to-an-html-text-box-with-javascript>
@@ -53,3 +60,42 @@ Line numbers snippet
 textarea
 
 <https://stackoverflow.com/questions/37667141/use-a-div-as-an-input>
+
+## CSS dump
+
+``` CSS
+/* text operators */
+/*.string {
+    color: #179D87;
+}
+.lineNum {
+    color: #4C747A;
+}
+.greenSyntax {
+    color: #7F9801;
+}
+.blueSyntax {
+    color: #116F9C;
+}
+.indent {
+    margin-right: 25px;
+}
+.special {
+    margin-right: 18px;
+}
+.bodyAboutPrompt {
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: #179D87;
+}
+.cursor {
+    color: red;
+    animation: blinkingText 1s infinite;
+    opacity: 0;
+}
+@keyframes blinkingText {
+    100% {
+        opacity: 1;
+    }
+*/
+```

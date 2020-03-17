@@ -1,47 +1,5 @@
-/*
-colors 
-
-non-selected file = #004053
-default-solarized = #002B36 
-*/
-
-/* text operators */
-.string {
-    color: #179D87;
-}
-.lineNum {
-    color: #4C747A;
-}
-.greenSyntax {
-    color: #7F9801;
-}
-.blueSyntax {
-    color: #116F9C;
-}
-.indent {
-    margin-right: 25px;
-}
-.special {
-    margin-right: 18px;
-}
-.bodyAboutPrompt {
-    font-weight: bolder;
-    font-size: 1.4em;
-    color: #179D87;
-}
-.cursor {
-    color: red;
-    animation: blinkingText 1s infinite;
-    opacity: 0;
-}
-@keyframes blinkingText {
-    100% {
-        opacity: 1;
-    }
-}
-
 body {
-    background-color: #002B36;
+    background-color: #2c7034;
     font-family: Consolas, 'Courier New', monospace;
 }
 
@@ -50,19 +8,31 @@ body {
     margin-left: -8px;
 }
 
-/* link */
 .bodyLink {
     margin-top: -8px;
-    background-color: #004053;
+    background-color: #0b272e;
     width: 100%;
     height: 35px;
 }
 
-/* home */
 .bodyLinkHome {
-    background-color: #063441;
-    height: 35px;
-    width: 14%; 
+    display: block;
+    background-color: #000000;
+    width: 14%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.bodyLinkHomeSelected {
+    display: block;
+    background-color: red;
+    width: 14%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
 }
 
 .bodyLinkHomeImg {
@@ -72,25 +42,35 @@ body {
 
 .bodyLinkHomeTbox {
     padding-left: 4%;
-    width: 35;
+    width: 35px;
     height: auto;
     margin-left: 20%;
     margin-top: -20px;
-
 }
 
-.bodyLinkHomeTboxText {
+.bodyLinkProjects {
+    display: block;
+    background-color: #000000;
+    width: 14%;
+    height: 100%;
     text-decoration: none;
     color: #ffffff;
     font-size: 1.1em;
+    height: 100%;
+    margin-left: 14%;
+    margin-top: -35px;
+
 }
 
-
-/* Projects */
-.bodyLinkProjects {
-    background-color: #004053;
-    height: 35px;
+.bodyLinkProjectsSelected {
+    display: block;
+    background-color: red;
     width: 14%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    height: 100%;
     margin-left: 14%;
     margin-top: -35px;
 }
@@ -102,25 +82,35 @@ body {
 
 .bodyLinkProjectsTbox {
     padding-left: 4%;
-    width: 35;
+    width: 35px;
     height: auto;
     margin-left: 20%;
-    margin-top: -25px;
-
+    margin-top: -20px;
 }
 
-.bodyLinkProjectsTboxText {
+.bodyLinkContact {
+    display: block;
+    background-color: #000000;
+    width: 14%;
+    height: 100%;
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.1em
+    font-size: 1.1em;
+    height: 100%;
+    margin-left: 28%;
+    margin-top: -35px;
+
 }
 
-
-/* contact */
-.bodyLinkContact {
-    background-color: #004053;
-    height: 35px;
+.bodyLinkContactSelected {
+    display: block;
+    background-color: red;
     width: 14%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    height: 100%;
     margin-left: 28%;
     margin-top: -35px;
 }
@@ -132,24 +122,35 @@ body {
 
 .bodyLinkContactTbox {
     padding-left: 4%;
-    width: 35;
+    width: 35px;
     height: auto;
     margin-left: 20%;
-    margin-top: -25px;
-
+    margin-top: -20px;
 }
 
-.bodyLinkContactTboxText {
+.bodyLinkResume {
+    display: block;
+    background-color: #000000;
+    width: 14%;
+    height: 100%;
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.1em
+    font-size: 1.1em;
+    height: 100%;
+    margin-left: 42%;
+    margin-top: -35px;
+
 }
 
-/* resume */
-.bodyLinkResume {
-    background-color: #004053;
-    height: 35px;
+.bodyLinkResumeSelected {
+    display: block;
+    background-color: red;
     width: 14%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    height: 100%;
     margin-left: 42%;
     margin-top: -35px;
 }
@@ -161,20 +162,13 @@ body {
 
 .bodyLinkResumeTbox {
     padding-left: 4%;
-    width: 35;
+    width: 35px;
     height: auto;
     margin-left: 20%;
-    margin-top: -25px;
-
+    margin-top: -20px;
 }
 
-.bodyLinkResumeTboxText {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.1em
-}
-
-.bodyHead {
+/*.bodyHead {
     background-color: #063441;
 }
 
@@ -200,4 +194,4 @@ body {
 .bodyAboutText {
     color: #7F9801;
     font-size: 1.3em;
-}
+}*/
