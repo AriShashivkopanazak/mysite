@@ -1,9 +1,0 @@
-
-Line numbers snippet
-
-https://stackoverflow.com/questions/36378371/how-to-make-automatic-line-numbers-next-to-an-html-text-box-with-javascript
-
-
-textarea
-
-https://stackoverflow.com/questions/37667141/use-a-div-as-an-input
